@@ -1,0 +1,36 @@
+name: trader_diary
+description: A journal to track and analyze your trades.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-272.0.dev <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  hive: ^2.2.3
+  syncfusion_flutter_charts: ^20.4.42
+  uuid: ^3.0.7
+  permission_handler: ^10.2.0
+  file_picker: ^5.2.5
+  flutter_file_dialog: ^3.0.0
+  pasteboard: ^0.2.0
+  desktop_window: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Jost
+      fonts:
+        - asset: fonts/Jost-Regular.ttf
+        - asset: fonts/Jost-Bold.ttf
+          weight: 600
